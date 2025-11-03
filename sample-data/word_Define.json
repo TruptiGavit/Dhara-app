@@ -1,0 +1,34 @@
+{
+    "given_word": "dhara",
+    "success": true,
+    "found_match": true,
+    "details": {
+        "word": "dhara",
+        "other_scripts": {
+            "devanagari": "\u0927\u0930",
+            "itrans": "dhara",
+            "english": "dhara"
+        },
+        "llm_def": "The term \"dhara\" refers to a mountain or a holder, often used in compounds to denote bearing or containing something. It can also signify a Vasu deity, a P\u0101\u1e47\u1e0dava warrior, or represent the earth. Additionally, it denotes a king of tortoises, symbolizing Vishnu\u2019s Kurma avatar, and occasionally refers to a frivolous person.",
+        "definitions": [
+            {
+                "text": "one of the eight Vasus; a Vasava; father of three sons. Drav\u012b\u1e47a, Hutahavya and Raja; (Drav\u012b\u1e47a and Hutahavyav\u0101ha V\u0101. P.); according to M. P. he had two sons by Kaly\u0101\u1e47i and three by Mandhar\u0101.",
+                "short_text": "one of the eight Vasus; a Vasava; father of three sons. Drav\u012b\u1e47a, Hutahavya and Raja; (Drav\u012b\u1e47a and...",
+                "language": "English",
+                "source": "The Purana index. Madras by RAMACHANDRA DI\u0304KSHITAR, V. R. (1951-55), Univ. of Madras.",
+                "src_short_title": "Purana Index, Dikshitar, R.V.R. (1951-55), U. Madras",
+                "source_url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/PUIScan/2020/web/index.php"
+            }
+        ]
+    },
+    "similar_words": [
+        "\u0927\u093e\u0930\u092e\u094d",
+        "\u0927\u093e\u0930\u093e",
+        "\u0927\u0930\u093e",
+        "\u0927\u0930\u0902",
+        "\u0927\u093e\u0930",
+        "\u0927\u093e\u0930\u0902",
+        "\u0927\u093e\u0930\u0903",
+        "\u0927\u0930\u0903"
+    ]
+}

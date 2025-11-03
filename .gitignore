@@ -27,3 +27,33 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Flutter/Dart metadata
+.metadata
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# Android keystore and sensitive files
+*.jks
+key.properties
+android/local.properties
+android/key.properties
+google-services.json
+
+# iOS sensitive files
+ios/Runner/GoogleService-Info.plist
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Firebase and deployment
+firebase.json
+
+# Build scripts (optional - remove this line if you want to commit them)
+*.bat
+*.sh

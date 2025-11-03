@@ -1,0 +1,142 @@
+Module,Screen/Feature,Complete Message As User Sees It,Context/When It Appears
+Dashboard,App Title,Dhārā,Main app logo displayed everywhere
+Dashboard,Splash Screen,"Dhārā
+AI Powered Search
+Initializing...",Complete splash screen text sequence
+WORDefine,Welcome Screen,"Welcome to WORDefine
+
+Explore names, words, places or concepts. Enter a single word & discover the world of Indic Knowledge with our smart AI word lookup.",Complete welcome message on WORDefine landing
+QuickVerse,Welcome Screen,"Welcome to QuickVerse
+
+Do you have a shloka, mantra, verse or a kriti humming in your mind? Search for it here. Just enter the parts you remember to get started!",Complete welcome message on QuickVerse landing
+Books,Welcome Screen,"Welcome to Books
+
+Search and explore ancient texts and scriptures from various traditions and sources.",Complete welcome message on Books landing
+QuickSearch,Main Landing,"Discover the wisdom of Sanskrit
+texts, verses, and meanings
+
+Quick Access
+Dictionary | Verses | Books",Complete QuickSearch landing page text
+Prashna,Welcome Screen,"Welcome to Prashna (प्रश्न)
+
+Ask questions about Indic Knowledge...
+Meanings, Verses, Facts, Stories, 
+and more...",Complete Prashna chat welcome message
+Beta Testing,Welcome Dialog,"Welcome Dhārā Beta Tester! 🚀
+
+You're testing the beta version of Dhārā!
+
+🐛 Found a bug?
+
+1. Take a screenshot
+2. Tap the red bug button
+3. Choose WhatsApp or Email
+4. Attach screenshot and send
+
+Thanks for helping us improve! 🙏",Complete beta welcome dialog as user sees it
+Bug Report,WhatsApp Message,"🐛 Dhārā App Bug Report
+
+What happened:
+[Describe the problem]
+
+When did it happen:
+[What were you doing when the bug occurred]
+
+📸 Please attach a screenshot if possible
+
+Thanks for helping us improve Dhārā! 🙏",Complete WhatsApp bug report message template
+Bug Report,Email Message,"Subject: Dhārā App Bug Report
+
+Hi,
+
+I found a bug in the Dhārā app.
+
+What happened:
+[Describe the problem]
+
+When it happened:
+[What were you doing when the bug occurred]
+
+Device: Android/iOS
+App version: Latest
+
+Please find screenshot attached if applicable.
+
+Thanks!",Complete email bug report message template
+Bug Report,Report Options Modal,"🐛 Report a Bug
+
+Found something not working? Help us fix it!
+
+Report via WhatsApp
+Attach your screenshot
+
+Report via Email  
+Attach your screenshot",Complete bug report modal options as user sees it
+Share - Verse,"Hey! I just searched for the verse ""[searched term]"" on Dhara — look what I found!
+
+Have a shloka, mantra, verse or kriti humming in your mind?
+
+Just type in the parts you remember to get started!
+
+🔍 Search, cite, share and read in the script of your choice!
+
+✨ Find more such verses only in Dhara.
+
+📲 Download now on https://play.google.com/store/apps/details?id=in.bheri.dhara",Complete verse share message template
+Share - Definition,"Hey! I just searched for the word ""[searched term]"" on Dhara — look what I found!
+
+Explore names, words, places or concepts. Enter a single word & discover the world of Indic Knowledge with our smart AI word lookup.
+
+🔍Search, cite, share more such words only on Dhara.
+
+📲 Download now on https://play.google.com/store/apps/details?id=in.bheri.dhara",Complete word definition share message template  
+Share - Books/Chunk,"Hey! I just found this amazing content about ""[searched term]"" on Dhara — check it out!
+
+Discover profound texts, books, and knowledge from ancient and modern sources with Dhara's smart search.
+
+🔍 Search, cite, share more such content only on Dhara.
+
+📲 Download now on https://play.google.com/store/apps/details?id=in.bheri.dhara",Complete book/chunk content share message template
+Search Input Hints,WORDefine Search,Type a single word to search...,Placeholder text in WORDefine search box
+Search Input Hints,QuickVerse Search,Type partial verse to search...,Placeholder text in QuickVerse search box  
+Search Input Hints,Books Search,Ask a question...,Placeholder text in Books search box
+Search Input Hints,Prashna Chat,Ask a question...,Placeholder text in Prashna chat input
+Search Input Hints,Chat Streaming,Please wait...,Placeholder when AI is responding
+Empty States,No Results Found,No result found,When search returns no results (WORDefine/QuickVerse)
+Empty States,No Books Content,No chunks found,When book search returns no content
+Empty States,No Search Results,No results found,When QuickSearch returns empty
+Empty States,No Verses,No verses found,When verse content is empty
+Empty States,No Book Chunks,No book chunks found,When no book content is available
+Loading Messages,AI Thinking,AI is thinking...,When Prashna AI is processing
+Loading Messages,AI Working,AI is working...,When Prashna AI is executing tools
+Loading Messages,Dictionary Search,Searching meaning of [word],When AI is looking up word definitions
+Loading Messages,Verse Search,Looking up verse for [text],When AI is searching for verses
+Loading Messages,Book Search,Searching books for [query],When AI is searching book content
+Loading Messages,Pattern Search,Finding patterns...,When AI is doing regex searches
+Navigation Feedback,No Previous Verse,No previous verse available,When user tries to go to previous verse but none exists
+Navigation Feedback,No Next Verse,No next verse available,When user tries to go to next verse but none exists  
+Navigation Feedback,No Previous Chunk,No previous chunk available,When user tries to go to previous book chunk but none exists
+Navigation Feedback,No Next Chunk,No next chunk available,When user tries to go to next book chunk but none exists
+Error Messages,Verse Load Failed,Failed to load previous verse,When verse navigation fails
+Error Messages,Verse Load Error,Error loading previous verse,When verse loading encounters error
+Error Messages,Chunk Load Failed,Failed to load previous chunk,When book chunk navigation fails
+Error Messages,Chunk Load Error,Error loading previous chunk,When book chunk loading encounters error
+Book Actions,See More Content,See Augmentations,Button to view all augmented sources
+Book Actions,See Original,See Original,Button to view original non-augmented content
+Book Actions,Expand Content,Show more,Button to expand collapsed content
+Book Actions,Collapse Content,Show less,Button to collapse expanded content
+Modal Titles,Augmented Content,Dhara Summary,Section title in book augmentation modal (formerly ""Merged Content"")
+Modal Titles,Facts Section,Dhara Facts,Section title in book augmentation modal (formerly ""Augmented Source"")
+Navigation Tabs,Dictionary Tab,WordDefine,Bottom navigation tab label
+Navigation Tabs,Verse Tab,QuickVerse,Bottom navigation tab label  
+Navigation Tabs,Search Tab,Shodh (शोध),Bottom navigation tab label
+Navigation Tabs,Chat Tab,Prashna (प्रश्न),Bottom navigation tab label
+Menu Options,History Access,Search History,User menu option to access search history
+Beta Dialog,Action Button,Got it!,Button to close beta welcome dialog
+Error Dialog,Retry Button,Retry,Button to retry failed operations
+Language Selection,Language Options,"Assamese, Bengali, Devanagari, Gujarati, Gurmukhi, Kannada, Malayalam, Tamil, Telugu, Roman (Harvard–Kyoto), Roman (IAST), Roman (ITRANS), Roman (SLP1), Roman (Velthuis), Roman (WX)",Complete list of supported languages in dropdown
+Language Selection,Compact Labels,"अस्म, বাং, देव, ગુજ, ਗੁਰਮੁਖੀ, ಕನ್ನಡ, മലയാളം, தமிழ், తెలుగు, HK, IAST, ITRANS, SLP1, VEL, WX",Short language labels shown in UI
+Share Subject,Email Subject,Dhārā App Bug Report,Email subject line for bug reports
+Share Subject,Verse Share,Check out this verse from Dhara!,Email subject for verse sharing
+Share Subject,Definition Share,Check out this word from Dhara!,Email subject for word sharing
+Share Subject,Book Share,Check out this content from Dhara!,Email subject for book content sharing

@@ -1,0 +1,30 @@
+{
+  "_comment": "Add this to your React project's vercel.json to route /dhara traffic to Flutter app",
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/dhara/:path*",
+      "destination": "https://YOUR-FLUTTER-APP.vercel.app/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/dhara/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+

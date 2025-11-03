@@ -1,0 +1,6 @@
+
+
+mixin ErrorType {
+ 
+ String? getMessage();
+}
